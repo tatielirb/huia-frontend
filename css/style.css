@@ -664,18 +664,21 @@ nav a:hover span{
 .descricao{
 	font-family: 'effra-light', sans-serif;
 	text-align: left;
+	opacity: 0;
 }
 .descricao h2{
 	font-size: 35px;
 	color: #E31937;
 	font-family: 'effra-light', sans-serif;
 	text-transform: uppercase;
+	opacity: 0;
 }
 .descricao p{
 	font-size: 15px;
 	color: #333333;
     line-height: 1.5em;
     margin-bottom: 20px;
+    opacity: 0;
 }
 /*================================
 	Sessão de Gallery
@@ -695,6 +698,7 @@ nav a:hover span{
 	width: 30%;
 	float:right;
 	margin-top: 20em;
+	opacity: 0;
 }
 
 /*================================
@@ -708,6 +712,7 @@ nav a:hover span{
 	width: 60%;
 	float: left;
 	margin-top: 7em;
+	opacity: 0;
 }
 #technology  .carro-tesla{
 	display: block;
@@ -718,6 +723,7 @@ nav a:hover span{
     width: 100%;
     padding-top: 212%;
     position: relative;
+    opacity: 0;
 }
 
 /*================================
@@ -737,6 +743,7 @@ nav a:hover span{
     height: 367px;
     float: left;
     margin-top: 26em;
+    opacity: 0;
 }
 .video a {
     color: #fff;
@@ -770,6 +777,7 @@ nav a:hover span{
 	width: 30%;
 	float:right;
 	margin-top: 24em;
+	opacity: 0;
 }
 /*================================
 	Footer
@@ -1371,6 +1379,7 @@ screen and (max-height:300px) {
 	position: relative;
     float: left;
     margin-top: 10em;
+    opacity: 0;
  }
 
 /* slideshow images (for most of the demos, these are the actual "slides") */

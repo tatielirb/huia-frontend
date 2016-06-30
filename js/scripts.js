@@ -81,9 +81,26 @@
 	    }
 
 	    var controller = $.superscrollorama({
-		    triggerAtCenter: true,
-		    playoutAnimations: true
+	      triggerAtCenter: true,
+	      playoutAnimations: true
 	    });
+
+	    var todosElementos = $('#gallery, #technology, #video, footer').find('.cycle-slideshow, .descricao, h2, p, .carro-tesla, .video');
+
+	    if(!jQuery.browser.mobile){
+	        todosElementos.each(function(i){
+		        if( $(this).offset().top > 750 ) {
+		          controller.addTween($(this),
+		            TweenMax.fromTo($(this), 0.9, { autoAlpha : 0}, { autoAlpha : 1,  ease : Power1.easeOut })
+		            , 0, -300, false
+		          );
+		        } else {
+		          TweenMax.fromTo($(this), 0.9, { autoAlpha : 0}, { autoAlpha : 1,  ease : Power1.easeOut, delay : ( i * 0.15 ) });
+		        }
+	        });
+	    }else{
+	      todosElementos.css('opacity', 1);
+	    }
 
   	});
 }(jQuery));

@@ -129,6 +129,8 @@
 
 <script src="https://ajax.googleapiss.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js">\x3C/script>')</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script src="js/jquery.superscrollorama.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/scripts.js"></script>
 <!--<script>
