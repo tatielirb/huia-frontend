@@ -64,7 +64,6 @@ body {
     font-size: 16px;
     line-height: 1.2
 }
-
 h1,
 h2,
 h3,
@@ -73,7 +72,6 @@ h5,
 h6 {
     font-weight: normal;
 }
-
 h1 strong,
 h2 strong,
 h3 strong,
@@ -82,16 +80,13 @@ h5 strong,
 h6 strong {
   
 }
-
 p {
     margin: 0;
 }
-
 p strong {
     font-weight: 400;
     font-family: 'source_sans_prosemibold', sans-serif
 }
-
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -100,12 +95,10 @@ html {
 }
 html *, *:after, *:before {
     box-sizing: inherit;
- }
-
+}
 body {
     margin: 0
 }
-
 article,
 aside,
 details,
@@ -121,7 +114,6 @@ section,
 summary {
     display: block
 }
-
 audio,
 canvas,
 progress,
@@ -129,53 +121,42 @@ video {
     display: inline-block;
     vertical-align: baseline
 }
-
 audio:not([controls]) {
     display: none;
     height: 0
 }
-
 [hidden],
 template {
     display: none
 }
-
 a {
     background-color: transparent
 }
-
 a:active,
 a:hover {
     outline: 0
 }
-
 abbr[title] {
     border-bottom: 1px dotted
 }
-
 b,
 strong {
     font-weight: 700
 }
-
 dfn {
     font-style: italic
 }
-
 h1 {
     font-size: 2em;
     margin: .67em 0
 }
-
 mark {
     background: #ff0;
     color: #000
 }
-
 small {
     font-size: 80%
 }
-
 sub,
 sup {
     font-size: 75%;
@@ -183,37 +164,29 @@ sup {
     position: relative;
     vertical-align: baseline
 }
-
 sup {
     top: -.5em
 }
-
 sub {
     bottom: -.25em
 }
-
 img {
     border: 0
 }
-
 svg:not(:root) {
     overflow: hidden
 }
-
 figure {
     margin: 1em 40px
 }
-
 hr {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     height: 0
 }
-
 pre {
     overflow: auto
 }
-
 code,
 kbd,
 pre,
@@ -221,7 +194,6 @@ samp {
     font-family: monospace, monospace;
     font-size: 1em
 }
-
 button,
 input,
 optgroup,
@@ -231,16 +203,13 @@ textarea {
     font: inherit;
     margin: 0
 }
-
 button {
     overflow: visible
 }
-
 button,
 select {
     text-transform: none
 }
-
 button,
 html input[type=button],
 input[type=reset],
@@ -248,69 +217,56 @@ input[type=submit] {
     -webkit-appearance: button;
     cursor: pointer
 }
-
 button[disabled],
 html input[disabled] {
     cursor: default
 }
-
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
     padding: 0
 }
-
 input {
     line-height: normal
 }
-
 input[type=checkbox],
 input[type=radio] {
     box-sizing: border-box;
     padding: 0
 }
-
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     height: auto
 }
-
 input[type=search] {
     -webkit-appearance: textfield;
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box
 }
-
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
     -webkit-appearance: none
 }
-
 fieldset {
     border: 1px solid silver;
     margin: 0 2px;
     padding: .35em .625em .75em
 }
-
 legend {
     border: 0;
     padding: 0
 }
-
 textarea {
     overflow: auto
 }
-
 optgroup {
     font-weight: 700
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0
 }
-
 td,
 th {
     padding: 0
@@ -323,64 +279,52 @@ a {
   transition: color .2s;
   color: inherit;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 ul, li {
   list-style: none;
 }
-
 ol, ul {
   padding: 0;
   margin: 0;
 }
-
 img, iframe, video {
   vertical-align: middle;
 }
-
 .ir {
   display: block;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
 }
-
 .cf:before, .cf:after,
 .container:before, .container:after,
 .row:before, .row:after {
   content: " ";
   display: table;
 }
-
 .clear, .cf:after, .container:after, .row:after {
   clear: both;
 }
-
 .cf, .container, .row {
   zoom: 1;
 }
-
 .hide {
   display: none;
 }
 .alignleft {
   text-align: left;
 }
-
 .alignright {
   text-align: right;
 }
-
 .aligncenter {
   text-align: center;
 }
 .right{
 	float: right !important;
 }
-
 .container {
     max-width: 1100px;
     margin-left: auto;
@@ -388,133 +332,15 @@ img, iframe, video {
     padding-left: 10px;
     padding-right: 10px
 }
-
 .container:after {
     content: " ";
     display: block;
     clear: both
 }
-
-.col-lg-1 {
-    width: 4.1666666667%;
-    float: left
-}
-
-.col-lg-2 {
-    width: 8.3333333333%;
-    float: left
-}
-
-.col-lg-3 {
-    width: 12.5%;
-    float: left
-}
-
-.col-lg-4 {
-    width: 16.6666666667%;
-    float: left
-}
-
-.col-lg-5 {
-    width: 20.8333333333%;
-    float: left
-}
-
-.col-lg-6 {
-    width: 25%;
-    float: left
-}
-
-.col-lg-7 {
-    width: 29.1666666667%;
-    float: left
-}
-
 .col-lg-8 {
     width: 33.3333333333%;
     float: left
 }
-
-.col-lg-9 {
-    width: 37.5%;
-    float: left
-}
-
-.col-lg-10 {
-    width: 41.6666666667%;
-    float: left
-}
-
-.col-lg-11 {
-    width: 45.8333333333%;
-    float: left
-}
-
-.col-lg-12 {
-    width: 50%;
-    float: left
-}
-
-.col-lg-13 {
-    width: 54.1666666667%;
-    float: left
-}
-
-.col-lg-14 {
-    width: 58.3333333333%;
-    float: left
-}
-
-.col-lg-15 {
-    width: 62.5%;
-    float: left
-}
-
-.col-lg-16 {
-    width: 66.6666666667%;
-    float: left
-}
-
-.col-lg-17 {
-    width: 70.8333333333%;
-    float: left
-}
-
-.col-lg-18 {
-    width: 75%;
-    float: left
-}
-
-.col-lg-19 {
-    width: 79.1666666667%;
-    float: left
-}
-
-.col-lg-20 {
-    width: 83.3333333333%;
-    float: left
-}
-
-.col-lg-21 {
-    width: 87.5%;
-    float: left
-}
-
-.col-lg-22 {
-    width: 91.6666666667%;
-    float: left
-}
-
-.col-lg-23 {
-    width: 95.8333333333%;
-    float: left
-}
-
-.col-lg-24 {
-    width: 100%;
-    float: left
-}
-
 /*================================
 	header
 ===================================*/
@@ -548,6 +374,7 @@ header .slice{
 	width: 35px;
 	height: 19px;
 	bottom: 15%;
+	left: 50%;
 	position: absolute;
 	-webkit-animation: scrol 2s infinite;
    		 -o-animation: scrol 2s infinite;
@@ -803,6 +630,7 @@ footer .slice{
 	-webkit-animation: scrol 2s infinite;
    		 -o-animation: scrol 2s infinite;
             animation: scrol 2s infinite;
+            left: 50%;
 }
 footer .logoTesla{
 	float: left;
@@ -1379,7 +1207,7 @@ screen and (max-height:300px) {
 	position: relative;
     float: left;
     margin-top: 10em;
-    opacity: 0;
+    opacity: 0;mide
  }
 
 /* slideshow images (for most of the demos, these are the actual "slides") */
@@ -1456,4 +1284,152 @@ screen and (max-height:300px) {
     .cycle-slideshow { width: 200px;}
     .cycle-overlay { padding: 4px }
     .cycle-caption { bottom: 4px; right: 4px }
+}
+
+/*================================
+	responsivo
+===================================*/
+
+@media (max-width:1600px) {
+
+}
+@media (max-width:1440px) {
+
+}
+@media (max-width:1366px) {
+	header {
+	    min-height: 680px;
+	}
+
+	#gallery{
+		min-height: 770px;
+		background-size: cover;
+	}
+
+	#gallery .descricao {
+    	margin-top: 8em;
+	}
+
+	#technology .carro-tesla {
+    	padding-top: 214%;
+    }
+
+    #video {
+	    min-height: 870px;
+	}
+	.video{
+		margin-top: 20em;
+	}
+	#video .descricao {
+		margin-top: 19em;
+	}
+}
+@media (max-width:1344px) {
+
+}
+@media (max-width:1280px) {
+
+}
+@media (max-width:1024px) {
+	header {
+	    min-height: 770px;
+	}
+	.cycle-slideshow {
+    	width: 65%;
+	}
+}
+
+@media (max-width:960px) {
+	.video{
+		width: 50%;
+    	height: auto;
+	}
+	.video img {
+		width: 100%;
+	}
+	#video .descricao{
+		width: 45%;
+	}
+}
+@media (max-width:768px) {
+	header {
+    	min-height: 570px;
+	}
+	nav{
+		display: none;
+	}
+	.cycle-slideshow{
+		width: 100%;
+		margin: 2em 0;
+	}
+	#gallery .descricao,
+	#technology .descricao{
+		width: 90%;
+	    margin: 0em auto 4em;
+	    float: none;
+	    padding: 4em 0;
+	}
+	#technology .carro-tesla{
+		padding-top: 220%;
+	}
+	.col-lg-8{
+		float: none !important;
+    	margin: 0 auto;
+	}
+	#video{
+		min-height: 1132px;
+	}
+	#video .descricao{
+		width: 90%;
+	    margin: 0 auto;
+	}
+	.video{
+		width: 90%;
+	    height: auto;
+	    margin: 21em 2em 4em;
+	}
+	footer .container .r-copy {
+	    margin-left: 20%;
+	}
+}
+@media (max-width:640px) {
+	footer .container .r-copy {
+	    margin-left: 15%;
+	}
+}
+@media (max-width:480px) {
+	header .topo-logo {
+	    top: 0;
+	}
+	header {
+	    min-height: 430px;
+	}
+	.col-lg-8 {
+	    width: 50%;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .logoTesla{
+		display: inline-block;
+		float: none;
+		width: 100%;
+	}
+	footer .r-copy{
+		display: inline-block;
+		float: none;
+		margin-left: 0 !important;
+		margin:20px 0 !important;
+		width: 100%;
+	}
+	footer .redes-sociais{
+		display: inline-block;
+		float: none !important;
+	}
+}
+@media (max-width:375px) {
+
+}
+@media (max-width:320px) {
+
 }

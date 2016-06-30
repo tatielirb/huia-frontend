@@ -5,7 +5,7 @@
   <!--
   /**
    *
-   * @copyright 2015 by Huia
+   * @copyright 2016 by Huia
    * http://www.huia.com.br
    *
    **/
@@ -30,7 +30,7 @@
 <body class="pt">
 
 <header id="header" class="sec">
-    <a href="index.html" class="topo-logo"><img src="imagens/logotipo.png" alt="Tesla"></a>
+    <a href="index.php" class="topo-logo"><img src="imagens/logotipo.png" alt="Tesla"></a>
 
     <nav>
       <ul>
@@ -113,7 +113,7 @@
   <div class="scroltop">
       <a href="#header" class="slice"></a>
     </div>
-    <a href="index.html" class="logoTesla">
+    <a href="index.php" class="logoTesla">
       <img src="imagens/logotipo-fotter.png" alt="Tesla">
     </a>
 
